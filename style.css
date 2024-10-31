@@ -6,7 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
-    background-image: url("Images/image.png");
+    background-image: url("image.png");
 }
 
 .card {
@@ -14,7 +14,7 @@ body {
     border: 5px solid black;
     width: 640px;
     height: 800px;
-    background-image: url(Images/background.jpg); 
+    background-image: url(background.jpg); 
     background-size: cover;
     filter: blur(px);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);

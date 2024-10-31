@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url("Images/image.png");
+}
+
+.card {
+    position: relative;
+    border: 5px solid black;
+    width: 640px;
+    height: 800px;
+    background-image: url(Images/background.jpg); 
+    background-size: cover;
+    filter: blur(px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    transition: background-color 0.3s ease; 
+    overflow: hidden; 
+}
+
+.maincard {
+    border: 3px solid black;
+    width: 640px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.content {
+    position: absolute;
+    bottom: 40rem; 
+    left: 0rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(242, 10, 211);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.para {
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+    position: absolute;
+    bottom: 5rem;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(15, 12, 15);
+    left: 1rem;
+    width: 620px; 
+    letter-spacing: 3px;
+    font-size: 18px;
+    background-color: rgba(243, 177, 225, 0.8);
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.2);
+    padding: 4px;
+    z-index: 1; 
+
+}
+
+
+.card:hover .para {
+    opacity: 1; 
+}
+.logo{
+    position: absolute;
+    bottom: 120px;
+    background-color: rgba(49, 33, 45, 0.8);
+}
+.card:hover .logo{
+    opacity: 0;
+}
+.invitation-heading {
+    font-size: 3rem;
+    color: #121012;
+    border: 4px solid black;
+    background-color: rgba(243, 177, 225, 0.8);
+    text-align: center;
+    font-style: italic;
+    box-shadow: 5px 5px 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: relative;
+    top: 30px;
+    
+}
